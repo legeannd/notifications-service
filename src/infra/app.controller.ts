@@ -19,9 +19,9 @@ export class AppController {
       data: {
         id: randomUUID(),
         content,
-        category, 
+        category,
         recipientId,
-      }
-    })
+      },
+    });
   }
 }
